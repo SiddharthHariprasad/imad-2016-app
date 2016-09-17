@@ -21,6 +21,30 @@ app.get('/ui/HP.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'HP.html'));
 });
 
+app.get('/ui/Dumbledore.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'Dumbledore.html'));
+});
+
+app.get('/ui/dm.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'dm.html'));
+});
+
+app.get('/ui/hg.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'hg.html'));
+});
+
+app.get('/ui/oc.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'oc.html'));
+});
+
+app.get('/ui/ron.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'ron.html'));
+});
+
+app.get('/ui/vo.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'vo.html'));
+});
+
 
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80
 app.listen(8080, function () {
