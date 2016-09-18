@@ -549,9 +549,9 @@ var articles = {
 				has changed hands many times.
 			</p>
 			<p align = "center">
-				<img src = "https://1.bp.blogspot.com/-HHOV3rWTpDA/V91VYWmAyUI/AAAAAAAACbk/t8hde-W9d6kRvMF6BQI3YBggET51ymY8ACLcB/s1600/wand%2Bhg.jpg" alt = "Hermione's wand" width = "300" height = "400">Hermione's wand
+				<img src = "https://1.bp.blogspot.com/-HHOV3rWTpDA/V91VYWmAyUI/AAAAAAAACbk/t8hde-W9d6kRvMF6BQI3YBggET51ymY8ACLcB/s1600/wand%2Bhg.jpg" alt = "Hermione's wand" width = "300" height = "400">(Hermione's wand)
 				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-				<img src = "https://2.bp.blogspot.com/-eUzxllqTxbM/V91VY_xOUZI/AAAAAAAACbs/n00w7ZaA4uwkU_PbPXf9XBHJt0ojASCWgCLcB/s1600/wand%2Brw.jpg" alt = "Ron's wand" width = "300" height = "400">Ron's wand
+				<img src = "https://2.bp.blogspot.com/-eUzxllqTxbM/V91VY_xOUZI/AAAAAAAACbs/n00w7ZaA4uwkU_PbPXf9XBHJt0ojASCWgCLcB/s1600/wand%2Brw.jpg" alt = "Ron's wand" width = "300" height = "400">(Ron's wand)
 			</p>
 			<p align = "left">
 				<a href="article-five"><marquee scrollamount="5" width="40">&lt;&lt;&lt;</marquee>CHARACTERS</a>
