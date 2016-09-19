@@ -199,9 +199,9 @@ var articles = {
 					iTunes podcast rankings and have been polled one of the top 50 favourite podcasts.
 				</p>
 				<p>
-					<img src = "/ui/fans.jpg" alt = "harry potter fans" width = "300" height = "200">
+					<img src = "https://1.bp.blogspot.com/-EC-bU__vTTQ/V9-f-hdFjkI/AAAAAAAACc0/949hIp0CHvkyFPmNYg5xsppPnRVSWWDCgCLcB/s1600/fans.jpg" alt = "harry potter fans" width = "300" height = "200">
 					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
-					<img src = "/ui/booked.jpg" alt = "harry potter fan with book" width = "300" height = "200">
+					<img src = "https://1.bp.blogspot.com/-aCY9ICl-vko/V9-f3TflqcI/AAAAAAAACcw/n8nMRboqSeQmxSMhrsuXT3Cc1E7jV7sfgCLcB/s1600/booked.jpg" alt = "harry potter fan with book" width = "300" height = "200">
 				</p>
 			</div>`,
 		controls:`
@@ -636,14 +636,6 @@ app.get('/ui/Sid.png', function (req, res) {
 
 app.get('/ui/hp.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'hp.jpg'));
-});
-
-app.get('/ui/fans.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'fans.jpg'));
-});
-
-app.get('/ui/booked.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'booked.jpg'));
 });
 
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80
