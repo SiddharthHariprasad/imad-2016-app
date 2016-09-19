@@ -9,7 +9,7 @@ app.use(morgan('combined'));
 var articles = {
     'article-one':  {
         title: 'Harry Potter | Siddharth Hariprasad',
-        heading: '<marquee behavior="alternate"><H1><u>HARRY<br>POTTER</u></H1></marquee>',
+        heading: '<marquee behavior="alternate"><H1>HARRY<br>POTTER</H1></marquee>',
         content: ` 
             <p>
                 Harry Potter is a series of seven fantasy novels written by British author 
@@ -23,7 +23,7 @@ var articles = {
             <p>
                 <i>
 					<img src = "https://1.bp.blogspot.com/-k4QRmkZkBgs/V91VPtw2MPI/AAAAAAAACYo/g3vX00M14f4prItTMhIG-l1fivWQZzMRQCLcB/s1600/hp2.jpg" alt = "Harry Potter" width = "300" height = "250">
-					Harry Potter &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+					Harry Potter &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 					<img src = "https://4.bp.blogspot.com/-jEhpqRFFbDY/V91VWNKVjvI/AAAAAAAACaw/TJMwiA2H8xEjKnpqv0KfuuzlmkNAJqj2QCLcB/s1600/rw2.jpg" alt = "Ronald Weasley" width = "300" height = "250">
 					Ronald Weasley
 				</i>
@@ -31,7 +31,7 @@ var articles = {
 			<p>
 				<i>
 					<img src = "https://1.bp.blogspot.com/-4_kLiKaJllQ/V91VOG6PNkI/AAAAAAAACYM/IA8xB5Nibv0lQDHCx6WSaxc-sEtIegzeQCLcB/s1600/hg2.jpg" alt = "Hermione Granger" width = "300" height = "250">
-					Hermione Granger &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+					Hermione Granger &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 					<img src = "https://4.bp.blogspot.com/-qodwM1YM9e0/V91VYWgMR0I/AAAAAAAACbg/QsuJYIohF5gXSirGiEThBVeROVCK_s5CwCLcB/s1600/vo.jpg" alt = "Voldemort" width = "300" height = "250">
 					Lord Voldemort
 				</i>
@@ -39,20 +39,20 @@ var articles = {
             <p>
 				<u><h3>Following are the 8 novels.<br></h3></u>
 				<img src = "https://1.bp.blogspot.com/-MDy2uWQ3hxI/V91VPHiH8pI/AAAAAAAACYg/7HdPQcX-g5kdPS0SGZjhHkTC5JHAkfXTgCLcB/s1600/hp1book.jpg" alt = "book 1" width = "175" height = "250">
-				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 				<img src  = "https://4.bp.blogspot.com/-7jzonnLf0UY/V91VPyCTmiI/AAAAAAAACYs/yyZMMWUaDVMiF78WsT5Z6z_ixWgBB9UhACLcB/s1600/hp2book.jpg" alt = "book 2" width = "175" height = "250">
-				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 				<img src = "https://4.bp.blogspot.com/-yeyjJbdxA4Q/V91VQbObHNI/AAAAAAAACY4/McOOEQJyXBMxbTnEGS5snpyYmenjU0ZfgCLcB/s1600/hp3book.jpg" alt = "book 3" width = "175" height = "250">
-				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 				<img src = "https://3.bp.blogspot.com/-l4How47DWr0/V91VQmoN2JI/AAAAAAAACZA/zmkqGp__UbouwguutlvSr7HbXU8ZVtRfgCLcB/s1600/hp4book.jpg" alt = "book 4" width = "175" height = "250">
 			</p>
 			<p>	
 				<img src = "https://1.bp.blogspot.com/-D5cRSxc5PpQ/V91VRFD3wVI/AAAAAAAACZI/sN2miwdMpIk2L5E6FCCBINUW7fzgUGttwCLcB/s1600/hp5book.jpg" alt = "book 5" width = "175" height = "250">
-				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 				<img src = "https://3.bp.blogspot.com/-pXMfVWrPIfw/V91VRnd4nHI/AAAAAAAACZQ/5a9f6qfgcGMRjyfc1Th475mIqjLIfaPEQCLcB/s1600/hp6book.jpg" alt = "book 6" width = "175" height = "250">
-				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 				<img src = "https://1.bp.blogspot.com/-_SSNogW7hMA/V91VRgs6dUI/AAAAAAAACZY/FVC4qrGWopYTs7TwB-592japLdR3klwfQCLcB/s1600/hp7book.jpg" alt = "book 7" width = "175" height = "250">
-				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 				<img src = "https://2.bp.blogspot.com/-MHbKI3Wosjg/V91ZAg-NxpI/AAAAAAAACb8/HNtH4QA-wJYH0-A64CaPUwcQhYcXhH82QCLcB/s1600/Harry_Potter_and_the_Cursed_Child_Special_Rehearsal_Edition_Book_Cover.jpg" alt = "book 8" width = "175" height = "250">
 			</p>
 			<p>
@@ -89,26 +89,27 @@ var articles = {
 			<p>
 				<u><h3>Following are the 8 movies.<br></h3></u>
 				<img src = "https://4.bp.blogspot.com/-vWmfgu0vvGY/V91VPcHT-BI/AAAAAAAACYk/VFHc63Rcjb0GoNJzZYVVS2gR-JhJfEjEgCLcB/s1600/hp1film.jpg" alt = "film 1" width = "175" height = "250">
-				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 				<img src = "https://1.bp.blogspot.com/-0QC05mgxdTk/V91VP3vcMDI/AAAAAAAACY0/HVPtB4TWMgczhTlJxwOi8mD0seWfNqxkACLcB/s1600/hp2film.jpg" alt = "film 2" width = "175" height = "250">
-				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 				<img src = "https://2.bp.blogspot.com/-SODWpFkNsbQ/V91VQsl56dI/AAAAAAAACY8/F9facuAGliok7sl6vH2UBvv2TT0-Hd7YgCLcB/s1600/hp3film.jpg" alt = "film 3" width = "175" height = "250">
-				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 				<img src = "https://4.bp.blogspot.com/-JuhonEz8Cm8/V91VQ090ZuI/AAAAAAAACZE/QXC_QOzQmds2p89mRr4pwS9P0gEM_761ACLcB/s1600/hp4film.jpg" alt = "film 4" width = "175" height = "250">
 			</p>
 			<p>
 				<img src = "https://3.bp.blogspot.com/-s2Be65Tpo2k/V91VRCi6DzI/AAAAAAAACZM/gG_aUaWwEd0lr9nyxxykcs4V9Rqh-J53ACLcB/s1600/hp5film.jpg" alt = "film 5" width = "175" height = "250">
-				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 				<img src = "https://4.bp.blogspot.com/-jhK4wyP6ajw/V91VRgkF7bI/AAAAAAAACZU/t8w1FIcVnNw5J7-IJINNKg83DOWxs2IPACLcB/s1600/hp6film.jpg" alt = "film 6" width = "175" height = "250">
-				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 				<img src = "https://4.bp.blogspot.com/-1x2JL4ZKYR4/V91VSG-dTTI/AAAAAAAACZc/khHDuiUYQBQNO6byQ3-U4L4OkIaAaR0yQCLcB/s1600/hp7film.jpg" alt = "film 7" width = "175" height = "250">
-				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 				<img src = "https://1.bp.blogspot.com/--qtKuvVaI8k/V91VSeJWDyI/AAAAAAAACZk/s-tQId_MAssi4PdbESn6SpyNGyx5mHMzgCLcB/s1600/hp8film.jpg" alt = "film 8" width = "175" height = "250">
 			</p>
 				<u><h3>This is the Drama based on the 8th book.</h3></u><br>
 			<p align = "center" >
 				<img src = "https://1.bp.blogspot.com/-d9pGOrZ51Ho/V91Zj-IsmgI/AAAAAAAACcA/RzSjfj8TRPo41gFiVmyrxsKOgVvWBjBdQCLcB/s1600/Harry_Potter_Cursed_Child_Play.jpg" alt = "film 8" width = "350" height = "250">
-			</p>
+			</p>`,
+		controls:`
 			<p align = "right">
 				<a href="article-two">PLOT<marquee scrollamount="5" direction="right" width="40">&gt;&gt;&gt;</marquee></marquee></a>
 			</p>`
@@ -132,7 +133,7 @@ var articles = {
             <p>
 				<i>
 					<img src = "https://2.bp.blogspot.com/-nZD5Z-mB-cM/V91VSItBgvI/AAAAAAAACZg/-aUhNuUC3Ng72YFLVEY8m_31x4gd_pR8ACLcB/s1600/hpinmuggleclothes.jpg" alt = "harry potter in muggle clothes" width = "300" height = "200">
-					Harry Potter &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+					Harry Potter &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 					<img src = "https://4.bp.blogspot.com/-l2xqzjSjuGQ/V91VO-7K0_I/AAAAAAAACYY/I0aDxDOX1c4Ap5f_YQUAqHgIkT8NcZeUQCLcB/s1600/hogwarts.jpg" alt = "hogwarts castle" width = "300" height = "200">
 					Hogwarts Castle
 				</i>
@@ -167,7 +168,8 @@ var articles = {
 					<img src = "https://1.bp.blogspot.com/-IvjWlvOYuHw/V91VI2_YRKI/AAAAAAAACWY/85imXbiv0SYvGOH6vxyE6dQ3i96nf-_PwCLcB/s1600/JKR.jpg" alt = "J.K.Rowling" width = "400" height = "300"><br>
 					J.K.Rowling
 				</i>
-			</p>
+			</p>`,
+		controls:`
 			<p align = "center">
 				<a href="article-one"><marquee scrollamount="5" width="40">&lt;&lt;&lt;</marquee></marquee>HARRY POTTER</a>
 				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
@@ -178,23 +180,31 @@ var articles = {
         title: 'Cultural Impact | Siddharth Hariprasad',
         heading: '<marquee behavior="alternate"><h2>CULTURAL IMPACT</h2></marquee>',
         content: ` 
-            <p>
-				Fans of the series were so eager for the latest instalment that bookstores around the world began 
-				holding events to coincide with the midnight release of the books, beginning with the 2000 publication 
-				of Harry Potter and the Goblet of Fire. The events, commonly featuring mock sorting, games, face painting, 
-				and other live entertainment have achieved popularity with Potter fans and have been highly successful in 
-				attracting fans and selling books with nearly nine million of the 10.8 million initial print copies of 
-				Harry Potter and the Half-Blood Prince sold in the first 24 hours. The final book in the series, Harry 
-				Potter and the Deathly Hallows became the fastest selling book in history, moving 11 million units in 
-				the first twenty-four hours of release. The series has also gathered adult fans, leading to the release 
-				of two editions of each Harry Potter book, identical in text but with one edition's cover artwork aimed 
-				at children and the other aimed at adults. Besides meeting online through blogs, podcasts, and fansites, 
-				Harry Potter super-fans can also meet at Harry Potter symposia.<br>
-				The word Muggle has spread beyond its Harry Potter origins, becoming one of few pop culture words to land 
-				in the Oxford English Dictionary.The Harry Potter fandom has embraced podcasts as a regular, often weekly, 
-				insight to the latest discussion in the fandom. Both MuggleCast and PotterCast have reached the top spot of 
-				iTunes podcast rankings and have been polled one of the top 50 favourite podcasts.
-            </p>
+            <div class = "para">
+				<p>
+					Fans of the series were so eager for the latest instalment that bookstores around the world began 
+					holding events to coincide with the midnight release of the books, beginning with the 2000 publication 
+					of Harry Potter and the Goblet of Fire. The events, commonly featuring mock sorting, games, face painting, 
+					and other live entertainment have achieved popularity with Potter fans and have been highly successful in 
+					attracting fans and selling books with nearly nine million of the 10.8 million initial print copies of 
+					Harry Potter and the Half-Blood Prince sold in the first 24 hours. The final book in the series, Harry 
+					Potter and the Deathly Hallows became the fastest selling book in history, moving 11 million units in 
+					the first twenty-four hours of release. The series has also gathered adult fans, leading to the release 
+					of two editions of each Harry Potter book, identical in text but with one edition's cover artwork aimed 
+					at children and the other aimed at adults. Besides meeting online through blogs, podcasts, and fansites, 
+					Harry Potter super-fans can also meet at Harry Potter symposia.<br>
+					The word Muggle has spread beyond its Harry Potter origins, becoming one of few pop culture words to land 
+					in the Oxford English Dictionary.The Harry Potter fandom has embraced podcasts as a regular, often weekly, 
+					insight to the latest discussion in the fandom. Both MuggleCast and PotterCast have reached the top spot of 
+					iTunes podcast rankings and have been polled one of the top 50 favourite podcasts.
+				</p>
+				<p>
+					<img src = "/ui/fans.jpg" alt = "harry potter fans" width = "300" height = "200">
+					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
+					<img src = "/ui/booked.jpg" alt = "harry potter fan with book" width = "300" height = "200">
+				</p>
+			</div>`,
+		controls:`
 			<p align = "center">
 				<a href="article-two"><marquee scrollamount="5" width="40">&lt;&lt;&lt;</marquee></marquee>PLOT</a>
 				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
@@ -223,7 +233,7 @@ var articles = {
 			<p>
 				<i>
 					<img src = "https://1.bp.blogspot.com/-ynMChUw4f5A/V91VKgpP8HI/AAAAAAAACXA/vpSrCjiYkgkBs65qqh0TvMP1OmpChF93QCLcB/s1600/diagonalley.jpg" alt = "Diagon Alley" width = "350" height = "300">
-					Diagon Alley &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+					Diagon Alley &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 					<img src = "https://1.bp.blogspot.com/-szfIYOTr3qo/V91VOeXQBOI/AAAAAAAACYQ/nB-m05lLUlcbwiPzjf7PEi5CEE8KO1HdQCLcB/s1600/hogsmeade.jpg" alt = "Hogsmeade" width = "350" height = "300">
 					Hogsmeade
 				</i>
@@ -237,12 +247,13 @@ var articles = {
 			</p>
 			<p>
 				<img src = "https://1.bp.blogspot.com/-uPkCWJzmkvQ/V91VX9YWDHI/AAAAAAAACbY/8QNT3BZBrYEUqFO3xRiHzjMh4FT5CEo4gCLcB/s1600/us.jpg" alt = "universal studios" width = "350" height = "300">
-				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 				<img src = "https://2.bp.blogspot.com/-fMqCssYuG1I/V91VPN6SR6I/AAAAAAAACYc/Y9SSIyeAYmwp3okNpBnwk_nfeccx_Cu-ACLcB/s1600/hp1.jpg" alt = "Harry Potter" width = "350" height = "300">
 			</p>
 			<p align = "center">
 				<img src = "https://4.bp.blogspot.com/-nZ7rQf0XSHQ/V91VP2B6AZI/AAAAAAAACYw/cP209VhzFGsQtHW777ZMc-K0-LgGeKlnwCLcB/s1600/hp3.jpg" alt = "Harry Potter" width = "350" height = "300"><br>
-			</p>
+			</p>`,
+		controls:`
 			<p align = "center">
 				<a href="article-three"><marquee scrollamount="5" width="40">&lt;&lt;&lt;</marquee></marquee>CULTURAL IMPACT</a>
 				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
@@ -262,7 +273,8 @@ var articles = {
 					<a href="article-ten">Lord Voldemort</a><br><br>
 					<a href="article-eleven">Other Characters</a><br><br>
 				</p>
-			</h3>
+			</h3>`,
+		controls:`
 			<p align = "center">
 				<a href="article-four"><marquee scrollamount="5" width="40">&lt;&lt;&lt;</marquee>THE WIZARDING WORLD OF HARRY POTTER</a>
 				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
@@ -272,7 +284,7 @@ var articles = {
 	},
 	'article-six': {
 		title: 'Albus Dumbledore | Siddharth Hariprasad',
-        heading: '<p align = "center"><h2>Albus Dumbledore</h2></p>',
+        heading: '<h2><p align = "center">Albus Dumbledore</p></h2>',
         content: ` 
 			<p align = "center">
 				<img src = "https://1.bp.blogspot.com/-3YHDPfkqoXg/V91VLtW1sJI/AAAAAAAACXY/N9q9HHtw3lshNN1RK8KKJfFSz4w9DSuowCLcB/s1600/dumbledore.jpg" alt = "Albus Dumbledore" width = "300" height = "400">
@@ -292,14 +304,15 @@ var articles = {
 				<img src = "https://4.bp.blogspot.com/-ZNNXWUAOkmg/V91dSE-IpuI/AAAAAAAACcQ/hXYEaKTaGG8ulT7su1fLhVZt9fO53C8tQCLcB/s1600/1253806314531_f.jpg" width = "300" height = "400">
 				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 				<img src = "https://4.bp.blogspot.com/-RD7SqVpB37M/V91dSBW_VkI/AAAAAAAACcU/3hBdtN7b4FYojnF0OJ6ZFCMc900APvHEACLcB/s1600/tumblr_m61oxa4W3p1rrlv1l.jpg" width = "300" height = "400">
-			</p>
+			</p>`,
+		controls:`
 			<p align = "left">
 				<a href="article-five"><marquee scrollamount="5" width="40">&lt;&lt;&lt;</marquee>CHARACTERS</a>
 			</p>`
 	},
 	'article-seven': {
 		title: 'Draco Malfoy | Siddharth Hariprasad',
-        heading: '<p align = "center"><h2>Draco Malfoy</h2></p>',
+        heading: '<h2><p align = "center">Draco Malfoy</p></h2>',
         content: ` 
 			<p align = "center">
 				<img src = "https://4.bp.blogspot.com/-Plc2BwV9ySQ/V91VK8X_5xI/AAAAAAAACXE/nfd1lsE5n1IYz2awBOLGvUf8VQvx42obQCLcB/s1600/dm1.jpg" alt = "Draco Malfoy" width = "300" height = "400"><br>
@@ -316,14 +329,15 @@ var articles = {
 				<img src = "https://4.bp.blogspot.com/-Ia7u7RE00Jg/V91VLG-YTpI/AAAAAAAACXI/MS2JacpUZVEZ6y-ixboctK5-r6hEDpKLgCLcB/s1600/dm2.jpg" alt = "Draco Malfoy" width = "300" height = "400">
 				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 				<img src = "https://2.bp.blogspot.com/-h3pHQ29bddE/V91VLM8m3CI/AAAAAAAACXM/LPWWWQQ6B38tXdVIG6XmQZ6FgCNLhH_hwCLcB/s1600/dm3.jpg" alt = "Draco Malfoy" width = "300" height = "400">
-			</p>
+			</p>`,
+		controls:`
 			<p align = "left">
 				<a href="article-five"><marquee scrollamount="5" width="40">&lt;&lt;&lt;</marquee>CHARACTERS</a>
 			</p>`
 	},
 	'article-eight': {
 		title: 'Hermione Granger | Siddharth Hariprasad',
-        heading: '<p align = "center"><h2>Hermione Granger</h2></p>',
+        heading: '<h2><p align = "center">Hermione Granger</p></h2>',
         content: ` 
 			<p align = "center">
 				<img src = "https://1.bp.blogspot.com/-QsCSfZYer80/V91VN5SoUvI/AAAAAAAACYI/0BAY8WSs8IcU8Z02APcMgvD6HHGz_ovjwCLcB/s1600/hg1.jpg" alt = "Hermione Granger" width = "300" height = "400"><br>
@@ -341,14 +355,15 @@ var articles = {
 				<img src = "https://1.bp.blogspot.com/-4_kLiKaJllQ/V91VOG6PNkI/AAAAAAAACYM/IA8xB5Nibv0lQDHCx6WSaxc-sEtIegzeQCLcB/s1600/hg2.jpg" alt = "Hermione Granger" width = "300" height = "400">
 				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 				<img src = "https://3.bp.blogspot.com/-gLFAlx4d-M0/V91VOTl9fxI/AAAAAAAACYU/QGOg307s_5kQKPFytBWdW19B-HNmiUFnACLcB/s1600/hg3.jpg" alt = "Hermione Granger" width = "300" height = "400">
-			</p>
+			</p>`,
+		controls:`
 			<p align = "left">
 				<a href="article-five"><marquee scrollamount="5" width="40">&lt;&lt;&lt;</marquee>CHARACTERS</a>
 			</p>`
 	},
 	'article-nine': {
 		title: 'Ronald Weasley | Siddharth Hariprasad',
-        heading: '<p align = "center"><h2>Ronald Weasley</h2></p>',
+        heading: '<h2><p align = "center">Ronald Weasley</p></h2>',
         content: ` 
 			<p align = "center">
 				<img src = "https://4.bp.blogspot.com/-8gn0aVRawNU/V91VVrAlU7I/AAAAAAAACas/y_NvGz6OtXQQ8QN4Ddd1CiDh8KZYln7sQCLcB/s1600/rw1.jpg" alt = "Ronald Weasley" width = "300" height = "400"><br>
@@ -364,14 +379,15 @@ var articles = {
 				<img src = "https://4.bp.blogspot.com/-jEhpqRFFbDY/V91VWNKVjvI/AAAAAAAACaw/TJMwiA2H8xEjKnpqv0KfuuzlmkNAJqj2QCLcB/s1600/rw2.jpg" alt = "Ronald Weasley" width = "300" height = "400">
 				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 				<img src = "https://1.bp.blogspot.com/-48npnDBUVLs/V91VWOtRMII/AAAAAAAACa0/vplhwAxchPs1N7Mc8srRn6-RymerBswSQCLcB/s1600/rw3.jpg" alt = "Ronald Weasley" width = "300" height = "400">
-			</p>
+			</p>`,
+		controls:`
 			<p align = "left">
 				<a href="article-five"><marquee scrollamount="5" width="40">&lt;&lt;&lt;</marquee>CHARACTERS</a>
 			</p>`
 	},
 	'article-ten': {
 		title: 'Lord Voldemort | Siddharth Hariprasad',
-        heading: '<p align = "center"><h2>Lord Voldemort</h2></p>',
+        heading: '<h2><p align = "center">Lord Voldemort</p></h2>',
         content: ` 
 			<p align = "center">
 				<img src = "https://4.bp.blogspot.com/-qodwM1YM9e0/V91VYWgMR0I/AAAAAAAACbg/QsuJYIohF5gXSirGiEThBVeROVCK_s5CwCLcB/s1600/vo.jpg" alt = "Lord Voldemort" width = "300" height = "400"><br>
@@ -394,14 +410,15 @@ var articles = {
 			</p>
 			<p align = "center">
 				<img src = "https://2.bp.blogspot.com/-7e8_7vsBvUg/V91VXXiqFUI/AAAAAAAACbQ/I7hqFYbhnwskjsq3gDSNQzSrHbAtDLfWgCLcB/s1600/tr1.jpg" alt = "Lord Voldemort" width = "300" height = "400">
-			</p>
+			</p>`,
+		controls:`
 			<p align = "left">
 				<a href="article-five"><marquee scrollamount="5" width="40">&lt;&lt;&lt;</marquee>CHARACTERS</a>
 			</p>`
 	},
 	'article-eleven': {
 		title: 'Other characters | Siddharth Hariprasad',
-        heading: '<p align = "center"><h2>Other characters</h2></p>',
+        heading: '<h2><p align = "center">Other characters</p></h2>',
         content: ` 
 			<p align = "center">
 				<img src = "https://2.bp.blogspot.com/-MNtMuV3ITto/V91VJdEVi9I/AAAAAAAACWo/HnRDTk84iP4RXO5F7sQHWak4tYIIdhVogCLcB/s1600/bellatrix.jpg" width = "300" height = "400">
@@ -496,7 +513,8 @@ var articles = {
 				Viktor krum&nbsp&nbsp&nbsp&nbsp
 				<img src = "https://4.bp.blogspot.com/-qXEkXCo-TSA/V91VXGzOtwI/AAAAAAAACbI/lDv48cJavCoCWbiRON-gsRmmWh6bxJHHQCLcB/s1600/the%2Btrio%2Bin%2Bhp1.jpg" width = "300" height = "400">
 				the trio in hp1
-			</p>
+			</p>`,
+		controls:`
 			<p align = "left">
 				<a href="article-five"><marquee scrollamount="5" width="40">&lt;&lt;&lt;</marquee>CHARACTERS</a>
 			</p>`
@@ -552,7 +570,8 @@ var articles = {
 				<img src = "https://1.bp.blogspot.com/-HHOV3rWTpDA/V91VYWmAyUI/AAAAAAAACbk/t8hde-W9d6kRvMF6BQI3YBggET51ymY8ACLcB/s1600/wand%2Bhg.jpg" alt = "Hermione's wand" width = "300" height = "400">(Hermione's wand)
 				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 				<img src = "https://2.bp.blogspot.com/-eUzxllqTxbM/V91VY_xOUZI/AAAAAAAACbs/n00w7ZaA4uwkU_PbPXf9XBHJt0ojASCWgCLcB/s1600/wand%2Brw.jpg" alt = "Ron's wand" width = "300" height = "400">(Ron's wand)
-			</p>
+			</p>`,
+		controls:`
 			<p align = "left">
 				<a href="article-five"><marquee scrollamount="5" width="40">&lt;&lt;&lt;</marquee>CHARACTERS</a>
  			</p>`
@@ -563,6 +582,7 @@ function createTemplate (data){
     var heading = data.heading;
     var date = data.date;
     var content = data.content;
+	var controls = data.controls;
     var htmlTemplate = `
         <html>
             <head>
@@ -574,17 +594,22 @@ function createTemplate (data){
             </head>
             <body>
                 <div class="container">
-                    <div>
+                    <div class="head">
                         <a href="/"><marquee scrollamount="5" width="40">&lt;&lt;&lt;</marquee>Home</a>
                     </div>
                     <hr/>
-                    <h1>
-                        ${heading}
-                    </h1>
+					<div class = "head">
+						<h1>
+							${heading}
+						</h1>
+					</div>
 					<hr/>
                     <div>
                        ${content}
                     </div>
+					<div class = "head">
+						${controls}
+					</div>
                 </div>
             </body>
         </html>
@@ -601,13 +626,24 @@ app.get('/:articleName',function (req, res){
     res.send(createTemplate(articles[articleName]));
 });
 
-
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 
 app.get('/ui/Sid.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'Sid.png'));
+});
+
+app.get('/ui/hp.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'hp.jpg'));
+});
+
+app.get('/ui/fans.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'fans.jpg'));
+});
+
+app.get('/ui/booked.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'booked.jpg'));
 });
 
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80

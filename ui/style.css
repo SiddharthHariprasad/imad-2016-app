@@ -1,5 +1,5 @@
 body {
-    background: url("/ui/hp.png") no-repeat right top;
+	background: url("/ui/hp.jpg") repeat-y right top;
     font-family: sans-serif;
     margin-top: 60px;
 }
@@ -22,11 +22,37 @@ body {
 .img-medium {
     height: 200px;
 }
+.para {
+	font-size: 20;
+}
+.head {
+	font-family: Magic School Two;
+	font-size: 20;
+}
 .container {
             max-width: 1000px;
             margin: 0 auto;
-            color: #4e4949;
-            font-family: sans serif;
+            color: rgb(255, 255, 255);
+            font-family: Comic Sans MS;
             padding-left: 20px;
             padding-right: 20px;
+}
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: #00ff00;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
 }
