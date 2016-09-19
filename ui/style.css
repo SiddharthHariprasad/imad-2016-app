@@ -1,4 +1,5 @@
 body {
+    background: url("/ui/hp.png") no-repeat right top;
     font-family: sans-serif;
     margin-top: 60px;
 }
