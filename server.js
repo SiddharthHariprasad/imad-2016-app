@@ -586,9 +586,8 @@ function createTemplate (data){
     var htmlTemplate = `
         <html>
             <head>
-                <title>
-                    ${title}
-                </title>
+                <title>${title}</title>
+				<link rel="icon" href="https://3.bp.blogspot.com/-3MLoeceCyek/V90X0MQhZYI/AAAAAAAACV8/QHO8sLeEZpo18KUjZOHP6Xey9UVCdH7_wCLcB/s1600/Sid_Editz_Logo_new.png">
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link href="/ui/style.css" rel="stylesheet" />
             </head>
