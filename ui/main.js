@@ -68,8 +68,8 @@ submit.onclick = function () {
 	};
 	//make a req and send name
 	var nameInput = document.getElementById('name');
-	var name1 = nameInput.value;
-	request.open('GET', 'http://siddharthhariprasad.imad.hasura-app.io/submit-name?=' + name1, true);
+	var name = nameInput.value;
+	request.open('GET', 'http://siddharthhariprasad.imad.hasura-app.io/submit-name?=' + name, true);
 	request.send(null);
 
 	
