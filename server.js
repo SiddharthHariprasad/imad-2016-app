@@ -631,7 +631,7 @@ app.get('/submit-name',function (req, res) {
 	//get the name frm req
 	var name = req.query.name;
 	
-	names.push(names);
+	names.push(name);
 	
 	res.send(JSON.stringify(names));
 });
