@@ -609,6 +609,13 @@ function createTemplate (data){
 					<div class = "head">
 						${controls}
 					</div>
+					<div class="comments">
+            			<input type="text" id="name" placeholder="Comment">
+            			<input type="submit" value="Submit" id="submit_btn">
+            			<ul id="namelist">
+            			</ul>
+            		</div>
+            	    <hr/>
                 </div>
             </body>
         </html>
